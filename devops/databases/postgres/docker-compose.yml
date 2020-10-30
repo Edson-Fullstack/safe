@@ -11,8 +11,7 @@ services:
     #    volumes:
     #      - ../../data/postgres:/var/lib/postgresql
     environment:
-      POSTGRES_PASSWORD: 668262aZ
+      POSTGRES_PASSWORD: postgres
     ports:
       - 5432:5432
 
-#docker-compose up
